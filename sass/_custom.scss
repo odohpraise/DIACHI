@@ -1,0 +1,79 @@
+ body, html{
+     overflow-x: hidden;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ .navbar{
+     margin-bottom: 0;
+
+     a{
+        color: set-text-color($main-color) !important;
+    }
+.fa{
+    font-size: 20px;
+}
+}
+.showcase{
+    background: url(../img/m.jpg) no-repeat -250px -350px;
+    height: 450px;
+    padding: 30px 0;
+
+    h1{
+        font-size: 60px;
+    }
+    .container{
+        margin-top: 60px;
+        background: #fff;
+        opacity: 0.8;
+        padding: 20px 30px 30px 30px;
+    }
+}
+ .section-a{    
+      background : #ffcdd2;
+     
+     img{
+         margin: 10px;
+     }
+     padding: 30px 0;
+     text-align: center;
+
+     }
+
+.section-b{
+    background: #e6ebf1;
+    padding: 30px 0;
+    img{
+       
+        width: 100%;
+    }
+}
+.panel-heading h4{
+    color: set-text-color($main-color) ;
+}
+.section-c{
+    padding: 60px 0;
+    text-align: center;
+    background: $main-color;
+    color: set-text-color($main-color);
+
+    .btn-primary{
+        background: darken($main-color, 15%);
+    }
+}
+.title-bar{
+    background: url(../img/m.jpg) no-repeat 0 -300px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid $main-color;
+}
+.main{
+    margin-top: 30px;
+}
+.machine{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer{
+    padding: 30px 0;
+    background: darken($main-color, 20%);
+    color: set-text-color($main-color);
+}
