@@ -8135,6 +8135,8 @@ body, html {
   text-align: center; }
   .section-a img {
     margin: 10px; }
+  .section-a .me :hover {
+    cursor: pointer; }
 
 .section-b {
   background: #e6ebf1;
